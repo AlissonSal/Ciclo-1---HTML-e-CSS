@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+main, header, footer{
+    width: 80%;
+    background-color: darkorange;
+    margin: 10px auto 10px auto;
+    border: 1px solid blue;
+}
+
+main{
+    height: 600px;
+    display: flex;
+    align-content: flex-end;
+}
+
+header{
+    height: 60px;
+}
+
+.bloco{
+    background-color: greenyellow;
+    padding: 5px;
+    height: 100px;
+    width: 40%;
+    margin: 10px auto 10px auto;
+    border: 1px solid blue;
+}    
+
+footer{
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.divisao{
+    border: 1px solid blue;
+    padding: 5px;
+    height: 150px;
+    width: 39.5vw;
+}
+
+.azul{
+    border: 1px solid blue;
+    background-color: blue;
+    padding: 5px;
+    height: 10px;
+    width: 80%;
+    margin: 10px auto 10px auto;
+}
+
+section{
+    display: flex;
+    align-items: flex-end;
+}

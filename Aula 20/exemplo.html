@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Aula 20</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form method="get" name="TESTE">
+        <fieldset>
+            <legend> Teste de Cadastro</legend>
+            <label for="Nome">Nome</label>
+            <input type="text" required placeholder="Insira seu Nome" id="Nome" name="Nome" value="">
+            <label for="Sobrenome">Sobrenome</label>
+            <input type="text" required placeholder="Insira seu Sobrenome" id="Sobrenome" name="Sobrenome" value="">
+            <label for="Data de Nascimento">Data de Nascimento</label>
+            <input type="text" required placeholder="dd/mm/aaaa" id="Data de Nascimento" name="Data de Nascimento" value="">
+            <input type="radio" name="genero" value="M">
+            <label> Masculino</label>
+            <input type="radio" name="genero" value="F">
+            <label> Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Habilidades</legend>
+            <label for="HTML">HTML</label>
+            <input type="checkbox" id="HTML" name="HTML" value="HTML">
+            <label>Experiência</label>
+            <select>
+                <option value="">Selecione</option>
+                <option value="Junior">Junior</option>
+                <option value="Sênior">Sênior</option>
+            </select>
+            <label for="JAVA">JAVA</label>
+            <input type="checkbox" id="JAVA" name="JAVA" value="JAVA">
+            <label>Experiência</label>
+            <select>
+                <option value="">Selecione</option>
+                <option value="Junior">Junior</option>
+                <option value="Sênior">Sênior</option>
+            </select>
+            <label for="PHP">PHP</label>
+            <input type="checkbox" id="PHP" name="PHP" value="PHP">
+            <label>Experiência</label>
+            <select>
+                <option value="">Selecione</option>
+                <option value="Junior">Junior</option>
+                <option value="Sênior">Sênior</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Pessoal</legend>
+            <label>Fale um pouco mais sobre você:</label>
+            <textarea id="pessoal" required placeholder="Escreva Aqui..." cols="175" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" name="Enviar" value="ENVIAR">
+    </form>
+</body>
+</html>

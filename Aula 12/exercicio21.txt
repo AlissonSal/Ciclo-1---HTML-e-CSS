@@ -1,0 +1,7 @@
+1. É verdade que todo arquivo CSS precisa estar dentro de outra pasta para que o navegador 
+possa renderizar os estilos das propriedades CSS? 
+    Não. Pode estar no proprio codigo HTML.
+2. É verdade que todo elemento HTML possui por padrão elementos filhos?
+    Não.
+3. O que é o viewport?
+    A tela de vizualização.

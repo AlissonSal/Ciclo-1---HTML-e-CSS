@@ -1,0 +1,6 @@
+1. Qual a diferença da unidade de medida em e rem? 
+    EM =  sua aplicação está condicionada ao elemento pai.
+    REM =  sua aplicação está condicionada ao root
+2. Como é criada uma variável no CSS? Dê um exemplo.
+    - -nome_da_var: atributo; // cor, tamanho, fonte e etc.
+Para chamar a variável usa-se a função interna do CSS val(- -nome_da_var).

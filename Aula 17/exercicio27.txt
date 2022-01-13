@@ -1,0 +1,7 @@
+1. Como podemos definir uma URL, dê um exemplo.
+    Protocolo http, endereço de dominio e referencias de onde a pagina esta localizada
+2. O que é o HTTP?
+    Servidor de página web. Protocolo de comunicação entre o navegador e o web server.
+3. O que são vendors em CSS?
+    são prefixos que os fabricantes dos navegadores adicionam para que propriedades 
+    experimentais do CSS sejam utilizadas. 
